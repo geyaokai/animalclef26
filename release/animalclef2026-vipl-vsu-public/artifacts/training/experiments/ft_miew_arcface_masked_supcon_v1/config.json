@@ -1,0 +1,158 @@
+{
+  "experiment_id": "ft_miew_arcface_masked_supcon_v1",
+  "goal": "Add masked SupCon on top of the current Miew ArcFace+distill baseline.",
+  "student_backbone": "miew",
+  "student_model_id": "conservationxlabs/miewid-msv3",
+  "student_feature_dim": 2152,
+  "teacher_sources": [
+    "mega",
+    "miew"
+  ],
+  "teacher_dim": 3688,
+  "input_size": 440,
+  "embedding_dim": 512,
+  "device": "cuda:3",
+  "epochs": 8,
+  "train_batch_size": 32,
+  "eval_batch_size": 32,
+  "num_workers": 8,
+  "val_identity_fraction": 0.1,
+  "split_seed": 42,
+  "thresholds": [
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.7,
+    0.8
+  ],
+  "backbone_lr": 1e-05,
+  "head_lr": 0.0001,
+  "lr_reference_batch_size": 4,
+  "lr_scale_mode": "linear",
+  "resolved_backbone_lr": 8e-05,
+  "resolved_head_lr": 0.0008,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "arcface_scale": 30.0,
+  "arcface_margin": 0.3,
+  "relation_distill_weight": 0.2,
+  "feature_distill_weight": 0.05,
+  "supcon_weight": 0.1,
+  "supcon_temperature": 0.1,
+  "label_smoothing": 0.0,
+  "grad_clip_norm": 1.0,
+  "salamander_subcenter_k": 1,
+  "fit_images": 11739,
+  "val_images": 1335,
+  "fit_classes": {
+    "LynxID2025": 69,
+    "SalamanderID2025": 528,
+    "SeaTurtleID2022": 394
+  },
+  "teacher_cache_dir": "/home/hechen/gyk/animalclef/artifacts/training/cache/shared_teacher_cache_seed42_val0p1_full_v2",
+  "fit_ids": 991,
+  "effective_batch_size": 32,
+  "val_ids": 111,
+  "world_size": 1,
+  "gradient_accumulation_steps": 1,
+  "amp_enabled": true,
+  "train_augmentation": [
+    "RandomResizedCrop(size=(440, 440), scale=(0.75, 1.0))",
+    "ColorJitter(brightness=(0.9, 1.1), contrast=(0.9, 1.1), saturation=(0.9, 1.1), hue=(-0.02, 0.02))",
+    "ToTensor",
+    "Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))",
+    "RandomErasing(p=0.25, scale=(0.02, 0.1))"
+  ],
+  "eval_preprocess": [
+    "Resize(size=(440, 440))",
+    "ToTensor",
+    "Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))"
+  ],
+  "head_shapes": {
+    "LynxID2025": "69 x 512",
+    "SalamanderID2025": "528 x 512",
+    "SeaTurtleID2022": "394 x 512"
+  },
+  "resource_snapshot": {
+    "device": "cuda:3",
+    "world_size": 1,
+    "gradient_accumulation_steps": 1,
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA TITAN RTX",
+        "memory_total_mb": 24576,
+        "memory_used_mb": 10389,
+        "memory_free_mb": 13822,
+        "utilization_gpu_pct": 1
+      },
+      {
+        "index": 1,
+        "name": "NVIDIA TITAN RTX",
+        "memory_total_mb": 24576,
+        "memory_used_mb": 16183,
+        "memory_free_mb": 8028,
+        "utilization_gpu_pct": 99
+      },
+      {
+        "index": 2,
+        "name": "NVIDIA TITAN RTX",
+        "memory_total_mb": 24576,
+        "memory_used_mb": 15363,
+        "memory_free_mb": 8848,
+        "utilization_gpu_pct": 53
+      },
+      {
+        "index": 3,
+        "name": "NVIDIA TITAN RTX",
+        "memory_total_mb": 24576,
+        "memory_used_mb": 165,
+        "memory_free_mb": 24046,
+        "utilization_gpu_pct": 0
+      },
+      {
+        "index": 4,
+        "name": "NVIDIA TITAN RTX",
+        "memory_total_mb": 24576,
+        "memory_used_mb": 3,
+        "memory_free_mb": 24208,
+        "utilization_gpu_pct": 0
+      },
+      {
+        "index": 5,
+        "name": "NVIDIA TITAN RTX",
+        "memory_total_mb": 24576,
+        "memory_used_mb": 22585,
+        "memory_free_mb": 1626,
+        "utilization_gpu_pct": 0
+      }
+    ],
+    "selected_gpu_index": 3,
+    "selected_gpu": {
+      "index": 3,
+      "name": "NVIDIA TITAN RTX",
+      "memory_total_mb": 24576,
+      "memory_used_mb": 165,
+      "memory_free_mb": 24046,
+      "utilization_gpu_pct": 0
+    },
+    "tmux_sessions": [
+      "codex-subcenter-v1: 1 windows (created Thu Mar 26 01:47:07 2026)",
+      "codex-supcon-v1: 1 windows (created Thu Mar 26 01:47:07 2026)",
+      "flmm-rt-b-221849: 1 windows (created Tue Mar 24 22:20:41 2026)",
+      "flmm-rt-w-221849: 1 windows (created Tue Mar 24 22:20:47 2026)",
+      "p1_train: 1 windows (created Tue Mar 24 21:19:50 2026)",
+      "qwen_train: 1 windows (created Wed Mar 25 19:43:23 2026)"
+    ]
+  },
+  "resource_decision": "Single-GPU formal run on a free 24 GB card after a fresh probe because the loss branch changed.",
+  "probe_reuse_note": "Probe probe_miew_masked_supcon_bs32_v1 passed before this formal run; do not reuse old bs32 probe because SupCon changes the active loss branch.",
+  "next_step_judgment": "Inspect best epoch summary, compare against frozen fusion and rerank baselines, then decide whether to continue the current backbone or switch to the next matrix item."
+}

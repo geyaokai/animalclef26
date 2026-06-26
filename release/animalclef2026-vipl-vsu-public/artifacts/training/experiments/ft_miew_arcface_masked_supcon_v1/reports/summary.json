@@ -1,0 +1,11 @@
+{
+  "best_epoch": 2,
+  "best_macro_ari": 0.498915,
+  "experiment_id": "ft_miew_arcface_masked_supcon_v1",
+  "student_backbone": "miew",
+  "teacher_sources": [
+    "mega",
+    "miew"
+  ],
+  "teacher_cache_dir": "/home/hechen/gyk/animalclef/artifacts/training/cache/shared_teacher_cache_seed42_val0p1_full_v2"
+}

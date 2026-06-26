@@ -1,0 +1,17 @@
+{
+  "base_dir": "/data1/gyk/animalclef_artifacts_parent/artifacts/submissions/kaggle_variant_salamander_top10_manual_graph_on_062817_bestpublic_v1",
+  "base_predictions_path": "/data1/gyk/animalclef_artifacts_parent/artifacts/submissions/kaggle_variant_salamander_top10_manual_graph_on_062817_bestpublic_v1/tables/test_predictions_v1.csv",
+  "base_public_score": 0.67578,
+  "submitted_at_utc": "2026-04-29 03:04:38.420000",
+  "submission_description": "Salamander crossview manual yes overlay on 0.67578",
+  "public_score": 0.67987,
+  "public_score_delta_vs_base": 0.00409,
+  "yes_label_paths": [
+    "/data1/gyk/animalclef_artifacts_parent/artifacts/analysis/salamander_crossview_local_missing_review_v1/result/salamander_test_top10_yes_review_v1 page13.csv"
+  ],
+  "output_dir": "/data1/gyk/animalclef_artifacts_parent/artifacts/submissions/kaggle_variant_salamander_crossview_manual_yes_on_067578_v1",
+  "additional_yes_pairs": 6,
+  "merged_components": 4,
+  "changed_images": 4,
+  "submission_path": "/data1/gyk/animalclef_artifacts_parent/artifacts/submissions/kaggle_variant_salamander_crossview_manual_yes_on_067578_v1/submission.csv"
+}

@@ -1,0 +1,5 @@
+dataset,rows,clusters,singletons,max_cluster_size
+LynxID2025,946,19,2,252
+SalamanderID2025,689,553,485,12
+SeaTurtleID2022,500,153,41,14
+TexasHornedLizards,274,213,175,7

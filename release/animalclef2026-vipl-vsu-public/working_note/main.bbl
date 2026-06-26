@@ -1,0 +1,209 @@
+\begin{thebibliography}{21}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Schneider et~al.(2019)Schneider, Taylor, Linquist, and
+  Kremer}]{schneider2019animalreid}
+\bibinfo{author}{S.~Schneider}, \bibinfo{author}{G.~W. Taylor},
+  \bibinfo{author}{S.~Linquist}, \bibinfo{author}{S.~C. Kremer},
+\newblock \bibinfo{title}{Past, present and future approaches using computer
+  vision for animal re-identification from camera trap data},
+\newblock \bibinfo{journal}{Methods in Ecology and Evolution}
+  \bibinfo{volume}{10} (\bibinfo{year}{2019}) \bibinfo{pages}{461--470}.
+%Type = Inproceedings
+\bibitem[{Cermak et~al.(2024)Cermak, Picek, Adam, and
+  Papafitsoros}]{wildlifedatasets}
+\bibinfo{author}{V.~Cermak}, \bibinfo{author}{L.~Picek},
+  \bibinfo{author}{L.~Adam}, \bibinfo{author}{K.~Papafitsoros},
+\newblock \bibinfo{title}{Wildlifedatasets: An open-source toolkit for animal
+  re-identification},
+\newblock in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF Winter Conference
+  on Applications of Computer Vision}, \bibinfo{year}{2024}, pp.
+  \bibinfo{pages}{5953--5963}.
+%Type = Inproceedings
+\bibitem[{Picek et~al.(2026)Picek, Adam, Kahl, Bossy, Chrobak, Go{\"e}au,
+  Papafitsoros, Klinck, Vellinga, Planqu{\'e}, Denton, Barnard, N{\'e}dellec,
+  Del{\'e}ger, Courtin, Martellucci, Moummad, Vinatier, Bonnet, and
+  Joly}]{lifeclef2026}
+\bibinfo{author}{L.~Picek}, \bibinfo{author}{L.~Adam},
+  \bibinfo{author}{S.~Kahl}, \bibinfo{author}{R.~Bossy},
+  \bibinfo{author}{L.~Chrobak}, \bibinfo{author}{H.~Go{\"e}au},
+  \bibinfo{author}{K.~Papafitsoros}, \bibinfo{author}{H.~Klinck},
+  \bibinfo{author}{W.-P. Vellinga}, \bibinfo{author}{R.~Planqu{\'e}},
+  \bibinfo{author}{T.~Denton}, \bibinfo{author}{K.~Barnard},
+  \bibinfo{author}{C.~N{\'e}dellec}, \bibinfo{author}{L.~Del{\'e}ger},
+  \bibinfo{author}{M.~Courtin}, \bibinfo{author}{G.~Martellucci},
+  \bibinfo{author}{I.~Moummad}, \bibinfo{author}{F.~Vinatier},
+  \bibinfo{author}{P.~Bonnet}, \bibinfo{author}{A.~Joly},
+\newblock \bibinfo{title}{Overview of {LifeCLEF} 2026: Ai challenges for
+  biodiversity understanding and ecosystem management},
+\newblock in: \bibinfo{booktitle}{International Conference of the
+  Cross-Language Evaluation Forum for European Languages (CLEF)},
+  \bibinfo{organization}{Springer}, \bibinfo{year}{2026}.
+%Type = Inproceedings
+\bibitem[{Adam et~al.(2026)Adam, Papafitsoros, Williams, Biffi, and
+  Picek}]{animalclef2026overview}
+\bibinfo{author}{L.~Adam}, \bibinfo{author}{K.~Papafitsoros},
+  \bibinfo{author}{D.~A. Williams}, \bibinfo{author}{D.~Biffi},
+  \bibinfo{author}{L.~Picek},
+\newblock \bibinfo{title}{Overview of {AnimalCLEF} 2026: Discovery and
+  re-identification of individual animals},
+\newblock in: \bibinfo{booktitle}{Working Notes of CLEF 2026 - Conference and
+  Labs of the Evaluation Forum}, \bibinfo{year}{2026}.
+%Type = Article
+\bibitem[{Hubert and Arabie(1985)}]{hubert1985comparing}
+\bibinfo{author}{L.~Hubert}, \bibinfo{author}{P.~Arabie},
+\newblock \bibinfo{title}{Comparing partitions},
+\newblock \bibinfo{journal}{Journal of Classification} \bibinfo{volume}{2}
+  (\bibinfo{year}{1985}) \bibinfo{pages}{193--218}.
+%Type = Misc
+\bibitem[{Sani et~al.(2025)Sani, Khurana, and Anand}]{sani2026active}
+\bibinfo{author}{D.~Sani}, \bibinfo{author}{M.~Khurana},
+  \bibinfo{author}{S.~Anand}, \bibinfo{title}{Active learning for animal
+  re-identification with ambiguity-aware sampling}, \bibinfo{year}{2025}.
+  \bibinfo{note}{ArXiv:2511.06658}.
+%Type = Misc
+\bibitem[{{Conservation X Labs}(2024)}]{miewid}
+\bibinfo{author}{{Conservation X Labs}}, \bibinfo{title}{Miewid: A
+  multi-species animal re-identification model}, \bibinfo{year}{2024}.
+  \bibinfo{note}{ArXiv:2412.05602}.
+%Type = Inproceedings
+\bibitem[{Adam et~al.(2024)Adam, {\v{C}}erm{\'a}k, Papafitsoros, and
+  Picek}]{seaturtleid2022}
+\bibinfo{author}{L.~Adam}, \bibinfo{author}{V.~{\v{C}}erm{\'a}k},
+  \bibinfo{author}{K.~Papafitsoros}, \bibinfo{author}{L.~Picek},
+\newblock \bibinfo{title}{{SeaTurtleID2022}: A long-span dataset for reliable
+  sea turtle re-identification},
+\newblock in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF Winter Conference
+  on Applications of Computer Vision Workshops}, \bibinfo{year}{2024}.
+%Type = Article
+\bibitem[{Adam et~al.(2026)Adam, {\v{C}}erm{\'a}k, Picek et~al.}]{czechlynx}
+\bibinfo{author}{L.~Adam}, \bibinfo{author}{V.~{\v{C}}erm{\'a}k},
+  \bibinfo{author}{L.~Picek}, et~al.,
+\newblock \bibinfo{title}{{CzechLynx}: A dataset for individual identification
+  and pose estimation of the eurasian lynx},
+\newblock \bibinfo{journal}{Scientific Data}  (\bibinfo{year}{2026}).
+%Type = Inproceedings
+\bibitem[{Rublee et~al.(2011)Rublee, Rabaud, Konolige, and Bradski}]{orb}
+\bibinfo{author}{E.~Rublee}, \bibinfo{author}{V.~Rabaud},
+  \bibinfo{author}{K.~Konolige}, \bibinfo{author}{G.~Bradski},
+\newblock \bibinfo{title}{{ORB}: An efficient alternative to {SIFT} or {SURF}},
+\newblock in: \bibinfo{booktitle}{Proceedings of the IEEE International
+  Conference on Computer Vision}, \bibinfo{year}{2011}, pp.
+  \bibinfo{pages}{2564--2571}.
+%Type = Misc
+\bibitem[{Lindenberger et~al.(2023)Lindenberger, Sarlin, and
+  Pollefeys}]{lightglue}
+\bibinfo{author}{P.~Lindenberger}, \bibinfo{author}{P.-E. Sarlin},
+  \bibinfo{author}{M.~Pollefeys}, \bibinfo{title}{{LightGlue}: Local feature
+  matching at light speed}, \bibinfo{year}{2023}.
+  \bibinfo{note}{ArXiv:2306.13643}.
+%Type = Article
+\bibitem[{Biffi et~al.(2025)Biffi, Tucker, Ackel, and
+  Williams}]{biffi2025identification}
+\bibinfo{author}{D.~Biffi}, \bibinfo{author}{M.~R. Tucker},
+  \bibinfo{author}{A.~Ackel}, \bibinfo{author}{D.~A. Williams},
+\newblock \bibinfo{title}{Identification of individual texas horned lizards
+  ({Phrynosoma cornutum}) using genotypes and ventral spot patterns},
+\newblock \bibinfo{journal}{Ecology and Evolution} \bibinfo{volume}{15}
+  (\bibinfo{year}{2025}) \bibinfo{pages}{e71167}.
+%Type = Inproceedings
+\bibitem[{Adam et~al.(2025)Adam, Papafitsoros, Picek
+  et~al.}]{animalclef2025overview}
+\bibinfo{author}{L.~Adam}, \bibinfo{author}{K.~Papafitsoros},
+  \bibinfo{author}{L.~Picek}, et~al.,
+\newblock \bibinfo{title}{Overview of {AnimalCLEF} 2025: Recognition of
+  individual animals in images},
+\newblock in: \bibinfo{booktitle}{Working Notes of CLEF 2025 - Conference and
+  Labs of the Evaluation Forum}, \bibinfo{year}{2025}.
+%Type = Article
+\bibitem[{Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel,
+  Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos,
+  Cournapeau, Brucher, Perrot, and Duchesnay}]{scikit-learn}
+\bibinfo{author}{F.~Pedregosa}, \bibinfo{author}{G.~Varoquaux},
+  \bibinfo{author}{A.~Gramfort}, \bibinfo{author}{V.~Michel},
+  \bibinfo{author}{B.~Thirion}, \bibinfo{author}{O.~Grisel},
+  \bibinfo{author}{M.~Blondel}, \bibinfo{author}{P.~Prettenhofer},
+  \bibinfo{author}{R.~Weiss}, \bibinfo{author}{V.~Dubourg},
+  \bibinfo{author}{J.~Vanderplas}, \bibinfo{author}{A.~Passos},
+  \bibinfo{author}{D.~Cournapeau}, \bibinfo{author}{M.~Brucher},
+  \bibinfo{author}{M.~Perrot}, \bibinfo{author}{E.~Duchesnay},
+\newblock \bibinfo{title}{Scikit-learn: Machine learning in python},
+\newblock \bibinfo{journal}{Journal of Machine Learning Research}
+  \bibinfo{volume}{12} (\bibinfo{year}{2011}) \bibinfo{pages}{2825--2830}.
+%Type = Article
+\bibitem[{Fischler and Bolles(1981)}]{ransac}
+\bibinfo{author}{M.~A. Fischler}, \bibinfo{author}{R.~C. Bolles},
+\newblock \bibinfo{title}{Random sample consensus: A paradigm for model fitting
+  with applications to image analysis and automated cartography},
+\newblock \bibinfo{journal}{Communications of the ACM} \bibinfo{volume}{24}
+  (\bibinfo{year}{1981}) \bibinfo{pages}{381--395}.
+%Type = Inproceedings
+\bibitem[{Chen and Guestrin(2016)}]{xgboost}
+\bibinfo{author}{T.~Chen}, \bibinfo{author}{C.~Guestrin},
+\newblock \bibinfo{title}{{XGBoost}: A scalable tree boosting system},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 22nd ACM SIGKDD
+  International Conference on Knowledge Discovery and Data Mining},
+  \bibinfo{year}{2016}, pp. \bibinfo{pages}{785--794}.
+%Type = Inproceedings
+\bibitem[{Kirillov et~al.(2023)Kirillov, Mintun, Ravi, Mao, Rolland, Gustafson,
+  Xiao, Whitehead, Berg, Lo, Doll{\'a}r, and Girshick}]{sam}
+\bibinfo{author}{A.~Kirillov}, \bibinfo{author}{E.~Mintun},
+  \bibinfo{author}{N.~Ravi}, \bibinfo{author}{H.~Mao},
+  \bibinfo{author}{C.~Rolland}, \bibinfo{author}{L.~Gustafson},
+  \bibinfo{author}{T.~Xiao}, \bibinfo{author}{S.~Whitehead},
+  \bibinfo{author}{A.~C. Berg}, \bibinfo{author}{W.-Y. Lo},
+  \bibinfo{author}{P.~Doll{\'a}r}, \bibinfo{author}{R.~Girshick},
+\newblock \bibinfo{title}{Segment anything},
+\newblock in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF International
+  Conference on Computer Vision}, \bibinfo{year}{2023}, pp.
+  \bibinfo{pages}{4015--4026}.
+%Type = Inproceedings
+\bibitem[{Deng et~al.(2019)Deng, Guo, Xue, and Zafeiriou}]{arcface}
+\bibinfo{author}{J.~Deng}, \bibinfo{author}{J.~Guo}, \bibinfo{author}{N.~Xue},
+  \bibinfo{author}{S.~Zafeiriou},
+\newblock \bibinfo{title}{{ArcFace}: Additive angular margin loss for deep face
+  recognition},
+\newblock in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF Conference on
+  Computer Vision and Pattern Recognition}, \bibinfo{year}{2019}, pp.
+  \bibinfo{pages}{4690--4699}.
+%Type = Inproceedings
+\bibitem[{Khosla et~al.(2020)Khosla, Teterwak, Wang, Sarna, Tian, Isola,
+  Maschinot, Liu, and Krishnan}]{supcon}
+\bibinfo{author}{P.~Khosla}, \bibinfo{author}{P.~Teterwak},
+  \bibinfo{author}{C.~Wang}, \bibinfo{author}{A.~Sarna},
+  \bibinfo{author}{Y.~Tian}, \bibinfo{author}{P.~Isola},
+  \bibinfo{author}{A.~Maschinot}, \bibinfo{author}{C.~Liu},
+  \bibinfo{author}{D.~Krishnan},
+\newblock \bibinfo{title}{Supervised contrastive learning},
+\newblock in: \bibinfo{booktitle}{Advances in Neural Information Processing
+  Systems}, volume~\bibinfo{volume}{33}, \bibinfo{year}{2020}, pp.
+  \bibinfo{pages}{18661--18673}.
+%Type = Article
+\bibitem[{Bradski(2000)}]{opencv}
+\bibinfo{author}{G.~Bradski},
+\newblock \bibinfo{title}{{OpenCV}: Open source computer vision library},
+\newblock \bibinfo{journal}{Dr. Dobb's Journal of Software Tools}
+  (\bibinfo{year}{2000}).
+%Type = Article
+\bibitem[{Zhao et~al.(2023)Zhao, Wu, Chen, Chen, Xu, and Li}]{aliked}
+\bibinfo{author}{X.~Zhao}, \bibinfo{author}{X.~Wu}, \bibinfo{author}{W.~Chen},
+  \bibinfo{author}{P.~C.~Y. Chen}, \bibinfo{author}{Q.~Xu},
+  \bibinfo{author}{Z.~Li},
+\newblock \bibinfo{title}{{ALIKED}: A lighter keypoint and descriptor
+  extraction network via deformable transformation},
+\newblock \bibinfo{journal}{IEEE Transactions on Instrumentation and
+  Measurement} \bibinfo{volume}{72} (\bibinfo{year}{2023})
+  \bibinfo{pages}{1--16}.
+
+\end{thebibliography}

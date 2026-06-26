@@ -1,0 +1,10 @@
+{
+  "experiment_id": "ft_texas_miew_tcuwarmup_trusted_views_v1",
+  "best_epoch": 3,
+  "best_threshold": 0.44,
+  "student_backbone": "miew",
+  "teacher_source_dirs": [],
+  "anchor_threshold": 0.38,
+  "best_checkpoint_path": "/home/hechen/gyk/animalclef/artifacts/training/experiments/ft_texas_miew_tcuwarmup_trusted_views_v1/checkpoints/best_checkpoint.pt",
+  "chosen_predictions_path": "/home/hechen/gyk/animalclef/artifacts/training/experiments/ft_texas_miew_tcuwarmup_trusted_views_v1/tables/test_predictions_best_v1.csv"
+}

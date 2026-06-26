@@ -1,0 +1,41 @@
+# Local data and competition archives
+images/
+animal-clef-2026.zip
+artifacts.bak/
+submission_staging/
+
+# Generated or private local workspaces
+.serena/
+ipynb/
+code/
+example/
+
+# Local probes and temporary files
+--base-predictions
+--probe-dir
+tmp.py
+*.log
+*.aux
+*.blg
+*.fdb_latexmk
+*.fls
+*.zip
+*.pdf
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.npy
+*.npz
+*.pkl
+__pycache__/
+.pytest_cache/
+
+# Allow selected public release checkpoints tracked by Git LFS.
+!artifacts/training/experiments/ft_mega_arcface_distill_v1/checkpoints/best.pt
+!artifacts/training/experiments/ft_miew_arcface_masked_supcon_v1/checkpoints/last.pt
+!artifacts/training/experiments/ft_texas_miew_tcuwarmup_trusted_views_v1/checkpoints/best_checkpoint.pt
+!release/animalclef2026-vipl-vsu-public/artifacts/training/experiments/ft_mega_arcface_distill_v1/checkpoints/best.pt
+!release/animalclef2026-vipl-vsu-public/artifacts/training/experiments/ft_miew_arcface_masked_supcon_v1/checkpoints/last.pt
+!release/animalclef2026-vipl-vsu-public/artifacts/training/experiments/ft_texas_miew_tcuwarmup_trusted_views_v1/checkpoints/best_checkpoint.pt

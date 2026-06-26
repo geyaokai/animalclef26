@@ -1,0 +1,20 @@
+{
+  "base_registry_path": "/home/hechen/gyk/animalclef/artifacts/analysis/texas_pair_registry_v2/texas_pair_registry_v2.csv",
+  "override_path": "/home/hechen/gyk/animalclef/artifacts/analysis/texas_pair_registry_v3/manual_pair_overrides_v2.csv",
+  "output_path": "/home/hechen/gyk/animalclef/artifacts/analysis/texas_pair_registry_v3/texas_pair_registry_v2.csv",
+  "base_rows": 1592,
+  "override_rows": 8,
+  "output_rows": 1600,
+  "must_link_rows": 86,
+  "cannot_link_rows": 1514,
+  "overridden_pairs": [
+    "15214_15220",
+    "15227_15344",
+    "15320_15355",
+    "15355_15384",
+    "15358_15369",
+    "15358_15454",
+    "15369_15454",
+    "15416_15311"
+  ]
+}
