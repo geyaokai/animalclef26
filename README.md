@@ -14,7 +14,7 @@ Quick map:
 
 - `src/animalclef_analysis/`: reusable pipeline code.
 - `scripts/`: experiment, inference, submission, and review utilities.
-- `working_note/`: LaTeX source for the working note.
+- `working_note/main.pdf`: working note PDF.
 - `artifacts/submissions/.../submission.csv`: final submitted CSV.
 - `artifacts/submissions/.../tables/`: compact Salamander constraint summaries.
 - `artifacts/analysis/texas_pair_registry_v3/`: Texas reviewed pair registry.

@@ -9,7 +9,7 @@ the AnimalCLEF 2026 VIPL-VSU working notes.
 - `scripts/`: runnable scripts except private local audit scripts and one-off
   staging scripts that depend on private local artifacts.
 - `tests/`: smoke and unit tests.
-- `working_note/`: LaTeX source and bibliography for the working note.
+- `working_note/main.pdf`: working note PDF.
 - `doc/04_算法与代码解释/43_人工歧义复核台.md`
 - `doc/04_算法与代码解释/44_人工split判定编译器.md`
 - `doc/04_算法与代码解释/45_人工pair约束图编译器.md`
