@@ -1,7 +1,24 @@
 # VIPL-VSU AnimalCLEF 2026 Public Code Release
 
-This package contains the public source code and compact release artifacts for the VIPL-VSU AnimalCLEF 2026 working notes. It includes the final submission CSV, selected route checkpoints, and compact pair-constraint artifacts used by the final constrained system.
+This directory is the public release package for the VIPL-VSU AnimalCLEF 2026
+working note. It contains code, paper source, the final submission CSV,
+selected checkpoints, and compact pair-constraint artifacts.
 
-Excluded by policy: raw images, large intermediate caches, generated review boards, and private local staging/audit artifacts.
+Main entry points:
 
-See `release/public_release_manifest.md` for the detailed include/exclude policy.
+- `src/animalclef_analysis/`: reusable pipeline modules.
+- `scripts/`: runnable training, inference, review, and submission utilities.
+- `working_note/`: LaTeX source and figures.
+- `artifacts/submissions/kaggle_variant_salamander_crossview_manual_yes_on_067578_v1/submission.csv`: final submitted CSV.
+- `artifacts/analysis/texas_pair_registry_v3/`: compact Texas pair registry.
+- `artifacts/training/experiments/`: selected configs, summaries, and checkpoints.
+
+Notes:
+
+- Two checkpoints are included through Git LFS.
+- The Mega route `best.pt` checkpoint is larger than GitHub LFS per-object
+  limits, so only its config and reports are included here.
+- Raw images, large caches, generated review boards, and private local
+  staging/audit artifacts are not included.
+
+See `release/public_release_manifest.md` for the detailed file policy.
